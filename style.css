@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  padding: 90px 0;
+}
+
 .calculator {
   display: flex;
   justify-content: center;
@@ -17,11 +28,11 @@
   width: 100%;
   height: 100px;
   margin-bottom: 20px;
+  padding: 15px;
   background-color: black;
   color: white;
-  padding: 0 10px;
   text-align: right;
-  font: normal 5rem serif;
+  font: normal 4rem serif;
   overflow: hidden;
   border-radius: 5px;
 }
@@ -44,7 +55,7 @@
 }
 
 .calculator button:hover {
-  background-color: rgb(255, 182, 56);
+  background-color: #fbab18;
   color: black;
   border: 2px solid black;
 }
