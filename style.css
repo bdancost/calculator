@@ -1,10 +1,12 @@
 .calculator {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   width: 350px;
   padding: 20px;
   border-radius: 5px;
-  background-color: rgb(255, 192, 65);
+  background-color: #ffc041;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -16,7 +18,9 @@
   margin-bottom: 20px;
   background-color: black;
   color: white;
-  font: normal 4rem serif;
+  padding: 0 10px;
+  text-align: right;
+  font: normal 5rem serif;
   overflow: hidden;
   border-radius: 5px;
 }
@@ -35,5 +39,11 @@
   font-size: 1.5rem;
   outline: none;
   cursor: pointer;
+  border: 2px solid black;
+}
+
+.calculator button:hover {
+  background-color: rgb(255, 182, 56);
+  color: black;
   border: 2px solid black;
 }
